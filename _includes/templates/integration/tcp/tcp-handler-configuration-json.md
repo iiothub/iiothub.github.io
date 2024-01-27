@@ -1,0 +1,1 @@
+![image](/images/user-guide/integrations/tcp/tcp-handler-configuration-json.png)

@@ -1,0 +1,1 @@
+For further assistance, refer to the [Edge Install Guide](/docs/user-guide/install/{{docsPrefix}}installation-options/). This guide will aid in the installation of ThingsBoard Edge and its connection to the ThingsBoard server.

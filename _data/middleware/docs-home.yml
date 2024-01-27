@@ -1,0 +1,40 @@
+bigheader: "Middleware Documentation"
+abstract: "Documentation for using Middleware Platform."
+toc:
+- title: 开源中间件
+  path: /docs/middleware/
+- title: PostgreSQL
+  section:
+  - title: PostgreSQL安装部署
+    path: /docs/middleware/postgresql/postgres-deploy/
+  - title: PostgreSQL高可用
+    path: /docs/middleware/postgresql/postgres-ha/
+  - title: PostgreSQL流复制
+    path: /docs/middleware/postgresql/postgres-stream/
+- title: TimescaleDB 
+  section:
+  - title: TimescaleDB介绍
+    path: /docs/middleware/timescale/timescale-summary/
+  - title: TimescaleDB安装部署
+    path: /docs/middleware/timescale/timescale-deploy/
+  - title: TimescaleDB集群部署
+    path: /docs/middleware/timescale/timescale-deploy-cluster/
+- title: Prometheus
+  section:
+  - title: Prometheus介绍
+    path: /docs/middleware/prometheus/prome-summary/
+  - title: Prometheus安装部署
+    path: /docs/middleware/prometheus/prome-deploy/
+  - title: Prometheus监控
+    path: /docs/middleware/prometheus/prome-monitor/
+  - title: 监控告警
+    path: /docs/middleware/prometheus/prome-alarm/
+- title: ELK
+  section:
+  - title: 日志分析平台
+    path: /docs/middleware/elk/elk-summary/
+  - title: ELK安装部署
+    path: /docs/middleware/elk/elk-deploy/
+  - title: ELK日常操作
+    path: /docs/middleware/elk/elk-use/
+

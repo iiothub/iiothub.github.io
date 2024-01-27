@@ -1,0 +1,55 @@
+bigheader: "DevOps Documentation"
+abstract: "Documentation for using DevOps Platform."
+toc:
+- title: DevOps
+  path: /docs/devops/
+- title: DevOps介绍
+  path: /docs/devops/devops-summary/
+- title: CICD介绍
+  path: /docs/devops/cicd-summary/
+- title: CICD流水线
+  section:
+  - title: CICD规划
+    path: /docs/devops/cicd/cicd-plan/
+  - title: CICD环境部署
+    path: /docs/devops/cicd/cicd-deploy/
+  - title: 持续集成（CI）
+    path: /docs/devops/cicd/cicd-ci/
+  - title: 持续部署（CD）
+    path: /docs/devops/cicd/cicd-cd/
+- title: DevOps组件部署
+  section:
+  - title: Jenkins
+    path: /docs/devops/deploy/deploy-jenkins/
+  - title: GitLab
+    path: /docs/devops/deploy/deploy-gitlab/
+  - title: Git
+    path: /docs/devops/deploy/deploy-git/
+  - title: Harbor
+    path: /docs/devops/deploy/deploy-harbor/
+  - title: SonarQube
+    path: /docs/devops/deploy/deploy-sonarqube/
+- title: Jenkins
+  section:
+  - title: Jenkins
+    path: /docs/devops/jenkins/jenkins/
+  - title: Pipeline
+    path: /docs/devops/jenkins/pipeline/
+  - title: SonarQube
+    path: /docs/devops/jenkins/sonarqube/
+  - title: Spring Cloud
+    path: /docs/devops/jenkins/springcloud/
+- title: Git管理
+  section:
+  - title: Git
+    path: /docs/devops/git/git/
+  - title: GitLab
+    path: /docs/devops/git/gitlab/
+  - title: GitHub
+    path: /docs/devops/git/github/
+  - title: Git分支管理
+    path: /docs/devops/git/git-manage/
+  - title: IDEA
+    path: /docs/devops/git/git-idea/
+
+

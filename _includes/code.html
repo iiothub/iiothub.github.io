@@ -1,0 +1,10 @@
+{% capture samplecode %}{% include_relative {{include.file}} %}{% endcapture %}
+{% capture mysample %}
+```{{include.language}}
+{{ samplecode | raw | strip }}
+```
+{: id="{{include.file | handleize}}"}
+{: .copy-code}
+{% endcapture %}
+<table class="includecode">
+<tr><td>{{ mysample | markdownify }}</td></tr></table>

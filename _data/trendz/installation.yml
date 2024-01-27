@@ -1,0 +1,25 @@
+bigheader: "Installation"
+abstract: "Documentation for installation and configuration of Trendz Analytics."
+toc:
+- title: Installation options
+  path: /docs/trendz/install/installation-options/
+- title: Trendz Cloud
+  path: /docs/trendz/install/cloud/
+- title: On premise
+  section:
+  - title: Ubuntu Server
+    path: /docs/trendz/install/ubuntu/
+  - title: CentOS/RHEL Server
+    path: /docs/trendz/install/rhel/
+  - title: Windows
+    path: /docs/trendz/install/windows/
+  - title: Docker (Windows)
+    path: /docs/trendz/install/docker-windows/
+  - title: Docker (Linux or Mac OS)
+    path: /docs/trendz/install/docker/
+- title: Upgrade instructions
+  path: /docs/trendz/install/trndz-upgrade-instructions/
+- title: Connect Trendz to Thingsboard
+  path: /docs/trendz/connect-thingsboard/
+- title: Configuration properties
+  path: /docs/trendz/configuration-properties/

@@ -1,0 +1,37 @@
+bigheader: "Installation"
+abstract: "Documentation for installation and configuration of ThingsBoard IoT Platform."
+toc:
+- title: Installation options
+  path: /docs/user-guide/install/installation-options/
+- title: On premise
+  section:
+  - title: Ubuntu Server
+    path: /docs/user-guide/install/ubuntu/
+  - title: CentOS/RHEL Server
+    path: /docs/user-guide/install/rhel/
+  - title: Windows
+    path: /docs/user-guide/install/windows/
+  - title: Raspberry Pi 3
+    path: /docs/user-guide/install/rpi/
+  - title: Docker (Windows)
+    path: /docs/user-guide/install/docker-windows/
+  - title: Docker (Linux or Mac OS)
+    path: /docs/user-guide/install/docker/
+  - title: Building from sources
+    path: /docs/user-guide/install/building-from-source/
+  - title: Cluster setup
+    path: /docs/user-guide/install/cluster-setup/
+- title: Cloud
+  section:
+  - title: AWS
+    path: /docs/user-guide/install/aws/
+  - title: DigitalOcean
+    path: /docs/user-guide/install/digital-ocean/
+  - title: Google Cloud Platform
+    path: /docs/user-guide/install/gcp/
+  - title: Azure
+    path: /docs/user-guide/install/azure/
+- title: Upgrade instructions
+  path: /docs/user-guide/install/upgrade-instructions/
+- title: Configuration
+  path: /docs/user-guide/install/config/

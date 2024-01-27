@@ -1,0 +1,34 @@
+bigheader: "Architecture"
+abstract: "Design docs, deployment scenarios and performance"
+toc:
+- title: Architecture Overview
+  path: /docs/reference/
+- title: Monolithic architecture
+  path: /docs/reference/monolithic/
+- title: Microservices architecture
+  path: /docs/reference/msa/
+- title: Deployment scenarios
+  path: /docs/reference/iot-platform-deployment-scenarios/
+- title: ThingsBoard Performance
+  section:
+    - title: Data Collection Performance
+      path: /docs/reference/performance/
+#    - title: 20K IoT devices on single ThingsBoard server
+#      path: /docs/reference/20k-devices-test/
+#    - title: 1M IoT devices on ThingsBoard cluster with Kubernetes and Amazon EC2
+#      path: /docs/reference/1m-devices-test/
+- title: Performance on AWS EC2
+  path: /docs/reference/performance-aws-instances/
+  new: true
+#    - title: Performance test methodology
+#      path: /docs/reference/performance/performance-test-methodology/
+#    - title: Setup AWS instances
+#      path: /docs/reference/performance/setup-aws-instances/
+#- title: Performance tools
+#  section:
+#    - title: VisualVM for Java JMX
+#      path: /docs/reference/performance/tools/java-jmx-monitoring/
+#    - title: PgAdmin for Postgres
+#      path: /docs/reference/performance/tools/postgres-pgadmin-monitoring/
+#    - title: Thingsboard performance charts
+#      path: /docs/reference/performance/tools/thingsboard-performance-charts/

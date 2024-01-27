@@ -1,0 +1,37 @@
+bigheader: "Installation"
+abstract: "Documentation for installation and configuration of ThingsBoard Professional Edition IoT Platform."
+toc:
+- title: Installation options
+  path: /docs/user-guide/install/pe/installation-options/
+- title: On premise
+  section:  
+  - title: Ubuntu Server
+    path: /docs/user-guide/install/pe/ubuntu/
+  - title: CentOS/RHEL Server
+    path: /docs/user-guide/install/pe/rhel/
+  - title: Windows
+    path: /docs/user-guide/install/pe/windows/
+  - title: Docker (Linux or Mac OS)
+    path: /docs/user-guide/install/pe/docker/
+  - title: Docker (Windows)
+    path: /docs/user-guide/install/pe/docker-windows/
+  - title: Cluster setup
+    path: /docs/user-guide/install/pe/cluster-setup/
+- title: Cloud
+  section:
+  - title: AWS
+    path: /docs/user-guide/install/pe/aws/
+  - title: Azure
+    path: /docs/user-guide/install/pe/azure/
+  - title: DigitalOcean
+    path: /docs/user-guide/install/pe/digital-ocean/
+  - title: Google Cloud Platform
+    path: /docs/user-guide/install/pe/gcp/
+  - title: IBM Cloud
+    path: /docs/user-guide/install/pe/ibm-cloud/
+  - title: Alibaba Cloud
+    path: /docs/user-guide/install/pe/alibaba-cloud/
+- title: Upgrade instructions
+  path: /docs/user-guide/install/pe/upgrade-instructions/
+- title: Configuration
+  path: /docs/pe/user-guide/install/config/

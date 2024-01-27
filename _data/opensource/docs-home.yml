@@ -1,0 +1,12 @@
+bigheader: "Open Source Documentation"
+abstract: "Documentation for using Open Source."
+toc:
+- title: 开源文化
+  path: /docs/opensource/
+- title: 开源社区
+  path: /docs/opensource/os-community/
+- title: 开源基金会
+  path: /docs/opensource/os-foundation/
+- title: 开源许可证
+  path: /docs/opensource/os-license/
+

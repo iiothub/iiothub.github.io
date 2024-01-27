@@ -1,0 +1,89 @@
+---
+layout: common
+title: Our Company
+notitle: "true"
+description: 
+
+---
+
+<h1 class="aboutus-title">关于我们</h1> 
+
+<span class="who-we-are">社区介绍</span>
+
+<p class="company-info">IoTHub 是一个泛开发者社区，旨在推广物联网开源技术与实践，促进物联网技术的普及和发展，致力于为物联网开发者和从业者搭建一个学习、交流、分享的平台。<br><br>
+   IoTHub社区研究、推广主流物联网开源技术，选择开源技术构建物联网平台，免费为中小型系统提供技术支持、解决方案。社区实践技术路线：物联网（ThingsBoard）、云原生（Kubernetes）、边缘计算（KubeEdge）等。
+</p>
+<div class="our-mission">
+    <div class="our-mission-logos">
+        <div class="spacer"></div>
+        <div class="about-mission-background"></div>
+        <img class="about-mission-index" src="/images/about-mission-index.svg" alt="Map dashboard example">
+        <img class="about-mission-left" src="/images/about-mission-left.svg" alt="Root dashboard example">
+        <img class="about-mission-right" src="/images/about-mission-right.svg" alt="Chart dashboard example">
+    </div>
+    <div class="our-mission-info">
+        <span class="our-mission">社区建设目标</span>
+        <p class="company-info">
+            <ul>
+                <li>社区构建—致力于构建物联网开源技术开发者社区</li>
+                <li>技术传播—促进物联网开源技术在中国的传播</li>
+                <li>技术支持—社区免费提供技术支持、系统解决方案</li>
+            </ul>
+        </p>
+    </div>
+</div><br><br><br><br>
+
+
+
+<span class="who-we-are">社区守则</span>
+
+<p class="company-info">社区行为规范
+您需要阅读并同意相关政策条款方可以加入社区，即加入社区意味着您同意本条款。<br><br>
+您不得发布、传播含有下列内容的信息：
+<br>
+              <ul>
+                <li>反对宪法所确定的基本原则的</li>
+                <li>危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的</li>
+                <li>损害国家荣誉和利益的</li>
+				<li>煽动民族仇恨、民族歧视，破坏民族团结的</li>
+                <li>破坏国家宗教政策，宣扬邪教和封建迷信的</li>
+                <li>散布谣言，扰乱社会秩序，破坏社会稳定的</li>
+                <li>散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的</li>
+                <li>侮辱或者诽谤他人，未经他人同意泄露他人隐私或个人信息，侵害他人合法权益的</li>
+                <li>以侮辱、诽谤或者其他方式侵害英雄烈士的姓名、肖像、名誉、荣誉，歪曲、丑化、亵渎、否定英雄烈士事迹和精神的</li>
+                <li>煽动非法集会、结社、游行、示威、聚众扰乱社会秩序的</li>
+                <li>违反国家有关规定，发布系统漏洞、计算机病毒、网络攻击、网络侵入等网络安全信息的</li>
+                <li>含有法律、行政法规禁止的其他内容</li>
+            </ul>
+<br>不遵守或不执行行为准则的社区成员可能被永久地从社区中移除。
+</p><br><br><br><br>
+
+
+
+
+
+<span class="who-we-are">参与社区方式</span>
+
+<p class="company-info">
+    <ul>
+        <li>社区构建—致力于构建物联网开源技术开发者社区</li>
+        <li>技术传播—促进物联网开源技术在中国的传播</li>
+        <li>技术支持—社区免费提供技术支持、系统解决方案</li>
+    </ul>
+</p>
+<div class="our-mission">
+    <div class="our-mission-logos">
+        <div class="spacer"></div>
+        <div class="about-mission-background"></div>
+        <img class="about-mission-index" src="/images/community/iothub-code.png" alt="Map dashboard example">
+    </div>
+    <div class="our-mission-info">
+        <span class="our-mission">如何加入社区</span>
+        <p class="company-info">
+<br>加入IoTHub社区微信群
+        </p>
+    </div>
+</div><br><br><br><br><br><br>
+
+
+

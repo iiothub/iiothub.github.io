@@ -1,0 +1,144 @@
+<!Doctype html>
+<html id="trendz">
+
+{% include head-header.html productTag="trendz" %}
+<!--  HERO  -->
+<section id="hero" class="light-text">
+    <div class="hero-container">
+        <div id="hero-content">
+            <p class="pe-title">Trendz Analytics Platform</p>
+            <p class="pe-heading animated fadeInLeft">Driving more revenue with in-depth analytics</p>
+            <p class="pe-subTitle">Turn data into insights and make better decisions in minutes</p>
+            <div class="btn-block">
+                <div>
+                    <a href="/products/trendz/trndz-request-demo" class="button accent-btn">Get a demo</a>
+                </div>
+                <div>
+                    <a href="/pricing/?section=trendz-options&product=trendz-self-managed&solution=trendz-pay-as-you-go" class="button button try-pe">Get started</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+            </div>
+        </div>
+        <div class="icon" id="upper-icon-left"></div>
+        <div class="icon" id="upper-icon-center"></div>
+        <div class="icon" id="upper-icon-right"></div>
+        <div class="icon" id="down-icon-left"></div>
+        <div class="icon" id="down-icon-right"></div>
+    </div>
+</section>
+
+<section id="encyclopedia">
+    <div id="peContent" class="noToc">
+        {{ content }}
+    </div>
+</section>
+
+{% include trendz-wizard.html defaultPlan="business" %}
+
+{% include footer.html %}
+
+{% if site.data[foundTOC].hidetoc != "true" and page.hidetoc != "true" %}
+<button class="flyout-button" onclick="tb.toggleToc()"></button>
+{% endif %}
+
+<script type="text/javascript">
+    jqueryDefer(function () {
+        vis(function() {
+            if (vis()) {
+                slideUp();
+            }
+        });
+    });
+
+    inViewportDefer(function() {
+        $(".pie-chart .sphere, .multiple-chart .right-sphere").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animation-fromTopRight animated");
+                return true;
+            }
+        })
+        $(".pie-chart .donut-chart, .multiple-chart .left-sphere").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animation-fromTopLeft animated");
+                return true;
+            }
+        })
+        $(".pie-chart .bar-chart").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animation-fromBottomRight animated");
+                return true;
+            }
+        })
+        $(".multiple-chart .bottom-sphere").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animation-fromBottomLeft animated");
+                return true;
+            }
+        })
+        $(".pe-features .main-bg:nth-child(even) main .content").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animated fadeInRight");
+                return true;
+            }
+        });
+
+        $(".pe-features .main-bg:nth-child(even) main .image-block, .pe-features .main-bg:nth-child(odd) main .content").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animated fadeInLeft");
+                return true;
+            }
+        });
+        $(".js-bounceRight").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animated fadeInRight");
+                return true;
+            }
+        });
+        $(".js-bounceLeft").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animated fadeInLeft");
+                return true;
+            }
+        });
+
+        $("#feature-comparison table th:nth-child(2), " +
+            "#feature-comparison table th:nth-child(4), " +
+            "#feature-comparison table td:nth-child(2), " +
+            "#feature-comparison table td:nth-child(4)").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animated flipInY");
+                return true;
+            }
+        });
+        $("#pricing-models-cards main, #peContent .button.try-trendz, #pe-customers .customers-container .customer-block").inViewport(function(px){
+            if(px >= 80) {
+                $(this).addClass("animated zoomIn");
+                return true;
+            }
+        });
+    });
+
+    function slideUp() {
+        var headAnimations = $('#hero-content').find('.header-animation');
+        for (var i=0;i<headAnimations.length;i++) {
+            reinsert($(headAnimations[i]));
+        }
+    }
+
+    function reinsert(el) {
+        var newone = el.clone(true);
+        el.before(newone);
+        el.remove();
+    }
+
+
+
+</script>
+
+{% include cookie-consent.html %}
+
+</body>
+</html>

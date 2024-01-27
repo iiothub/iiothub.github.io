@@ -1,0 +1,30 @@
+bigheader: "KubeEdge Documentation"
+abstract: "Documentation for using KubeEdge Platform."
+toc:
+- title: KubeEdge
+  path: /docs/kubeedge/
+- title: KubeEdge
+  path: /docs/kubeedge/kubeedge-summary/
+- title: 云原生边缘计算
+  path: /docs/kubeedge/edge-computing/
+- title: 生产部署
+  section:
+  - title: KubeEdge部署
+    path: /docs/kubeedge/deploy/deploy/
+  - title: KubeEdge高可用部署
+    path: /docs/kubeedge/deploy/deploy-ha/
+- title: KubeEdge应用 
+  section:
+  - title: KubeEdge基本操作
+    path: /docs/kubeedge/app/kube-base/
+  - title: KubeEdge网络
+    path: /docs/kubeedge/app/kube-network/
+  - title: KubeEdge存储
+    path: /docs/kubeedge/app/kube-storage/
+  - title: KubeEdge应用部署
+    path: /docs/kubeedge/app/kube-app/
+- title: 边缘计算
+  section:
+  - title: 物联网云边协同
+    path: /docs/kubeedge/edge/iot/
+

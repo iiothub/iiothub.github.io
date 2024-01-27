@@ -1,0 +1,95 @@
+title: IoTHub
+name: IoTHub
+author: IoTHub
+logo: /images/thingsboard_logo.png
+url: https://iothub.org.cn
+
+twitter:
+  username: IoTHub
+
+social:
+  name: IoTHub
+  links:
+    - https://twitter.com/thingsboard
+    - https://github.com/thingsboard/thingsboard
+    - https://www.facebook.com/thingsboard
+    - https://www.youtube.com/channel/thingsboard
+
+seo:
+  type: WebSite
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  html_to_native: true
+  hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+baseurl:
+incremental: true
+
+exclude:
+  - .idea
+
+safe: false
+lsi: false
+
+sass:
+  style: compressed
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      image:
+        path: /images/thingsboard_logo.png
+        twitter: /images/thingsboard_logo.png
+        facebook: /images/thingsboard_logo.png
+      version: "v1.0"
+      githubbranch: "master"
+      docsbranch: "master"
+  -
+    scope:
+      path: docs
+    values:
+      layout: docwithnav
+      showedit: true
+
+permalink: pretty
+
+plugins:
+  - jekyll-redirect-from
+  - jekyll-seo-tag
+
+collections:
+  careers:
+    output: true
+
+release:
+  branch: release-3.5
+  branch_major_next: develop/3.5.2
+  ver: 3.5.1
+  ce_ver: 3.5.1
+  ce_tag: v3.5.1
+  ce_full_ver: 3.5.1
+  pe_ver: 3.5.1pe
+  pe_full_ver: 3.5.1PE
+  # --- EDGE
+  # DO NOT UPDATE EDGE VERSION WITH CE/PE UPDATE - EDGE RELEASED ONCE THINGSBOARD.CLOUD IS UPDATED
+  edge_ver: 3.5.1.1
+  edge_tag: v3.5.1.1
+  edge_full_ver: 3.5.1.1EDGE
+  pe_edge_ver: 3.5.1.1pe
+  pe_edge_full_ver: 3.5.1.1EDGEPE
+  # --- EDGE
+  ce_flutter_app_ver: 1.0.6
+  pe_flutter_app_ver: 1.0.7
+  broker_full_ver: 1.0.1

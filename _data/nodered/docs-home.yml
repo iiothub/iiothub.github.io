@@ -1,0 +1,26 @@
+bigheader: "Node-RED Documentation"
+abstract: "Documentation for using Node-RED Platform."
+toc:
+- title: Node-RED
+  path: /docs/nodered/
+- title: Node-RED低代码编程工具
+  path: /docs/nodered/node-red/
+- title: 生产部署
+  section:
+  - title: Node-RED Docker部署
+    path: /docs/nodered/deploy/deploy-docker/
+- title: Node-RED应用 
+  section:
+  - title: MQTT
+    path: /docs/nodered/app/app-mqtt/
+  - title: TCP
+    path: /docs/nodered/app/app-tcp/
+  - title: UDP
+    path: /docs/nodered/app/app-udp/
+  - title: WebSocket
+    path: /docs/nodered/app/app-websocket/
+  - title: PostgreSQL
+    path: /docs/nodered/app/app-postgresql/
+  - title: RabbitMQ
+    path: /docs/nodered/app/app-rabbitmq/
+

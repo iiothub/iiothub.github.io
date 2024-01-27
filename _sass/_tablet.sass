@@ -1,0 +1,198 @@
+// TEXT
+//$h1-font-size: 60px
+//$h1-line-height: 80px
+//
+//$h2-font-size: 42px
+//$h2-line-height: 60px
+//
+//$h3-font-size: 26px
+//$h3-line-height: 32px
+//
+//$h4-font-size: 26px
+//$h4-line-height: 40px
+//
+//$h5-font-size: 18px
+//$h5-line-height: 36px
+//
+//$p-font-size: 20px
+//$p-line-height: 28px
+
+
+$full-width-paddingX: 30px
+
+$main-width: 100%
+$main-max-width: 100%
+
+$header-height: 80px
+
+$logo-width: 180px
+
+$nav-buttons-margin-left: 10px
+
+$hamburger-size: 40px
+
+
+// main nav
+$main-nav-h5-margin-bottom: 1em
+$main-nav-h3-margin-bottom: 0.6em
+$nav-box-width: 16%
+$nav-box-sibling-margin-left: calc(10% / 2)
+$main-nav-left-button-size: 50px
+$main-nav-left-button-font-size: 18px
+
+
+// hero
+$hero-padding-top: 80px
+$headline-wrapper-margin-bottom: 40px
+$quickstart-button-padding: 0 50px
+
+// ocean nodes
+$ocean-nodes-padding-Y: 0px
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+@media screen and (min-width: 750px)
+	@import "size"
+
+	p
+		font-size: 16px
+		line-height: 24px
+		letter-spacing: 0.1px
+
+	h1
+		font-size: 36px
+		line-height: 44px
+
+	h2
+		font-size: 28px
+		line-height: 60px
+
+	h3
+		font-size: 28px
+		line-height: 36px
+
+	h4
+		font-size: 24px
+		line-height: 40px
+		padding-bottom: 0px
+
+	#device-filters
+		display: none
+		position: relative
+		z-index: 1
+		margin-top: 124px
+		flex-direction: row
+		justify-content: space-between
+		width: 100%
+		.header
+			display: none
+	#docsContent
+		.trainings-info
+			width: 720px
+			td:nth-child(1)
+				width: 250px
+				font-size: 18px
+			td:nth-child(2)
+				width: 470px
+				font-size: 18px
+			td.price
+				font-size: 24px
+			tr:last-child
+				td:nth-child(2)
+					width: 160px
+				td:nth-child(3)
+					padding: 8px
+					width: 310px
+					.button
+						font-size: 14px
+						padding: 0 10px
+						line-height: 40px
+
+	.oceanNodes
+		padding-top: $ocean-nodes-padding-Y
+		padding-bottom: $ocean-nodes-padding-Y
+		h3
+			text-align: left
+			margin-bottom: 18px
+
+		main
+			position: relative
+			clear: both
+			display: table
+			height: 160px
+
+			.content
+				display: table-cell
+				position: relative
+				vertical-align: middle
+
+			.image-wrapper
+				position: absolute
+				top: 50%
+				//max-height: 100%
+				transform: translateY(-50%)
+
+			&:nth-child(odd)
+				padding-right: 210px
+
+				.image-wrapper
+					right: 0
+
+			&:nth-child(even)
+				padding-left: 210px
+
+				.image-wrapper
+					left: 0
+
+			img
+				width: 100%
+
+	#video
+		width: $main-max-width
+		display: block
+
+	// FOOTER
+	footer
+		nav
+			text-align: center
+			flex-direction: row
+
+@media screen and (max-width: 1024px)
+	footer
+		padding-left: 30px
+		padding-right: 30px
+		.deeper
+			justify-content: flex-end!important
+			.footer-logo
+				display: none
+	#docs
+		.logo
+			left: calc(50% - 70px)
+
+@media screen and (max-width: 768px)
+	footer
+		.deeper
+			justify-content: center!important
+			nav
+				display: block!important
+				a
+					width: 100%
+					text-align: center!important
+					margin: 18px 0 0!important
+		.deepmost
+			display: block
+			.copyright
+				text-align: center
+			.social
+				justify-content: center
+				width: 100%
+				padding-top: 48px
+		.newsletterSubsContainer
+			justify-content: center
+			.primary
+				height: unset
+				&.subscribe
+					margin-top: 8px
+					width: 100%

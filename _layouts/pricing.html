@@ -1,0 +1,217 @@
+<!Doctype html>
+<html id="pricing">
+
+{% include head-header.html %}
+
+<section id="hero" class="light-text">
+</section>
+
+<section id="encyclopedia">
+    <div id="pricingContent" class="noToc">
+        {{ content }}
+    </div>
+</section>
+
+{% include trendz-wizard.html %}
+
+{% include footer.html %}
+
+<script type="text/javascript">
+    (function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+        var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+        f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+        var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+        _.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+    var ml_account = ml('accounts', '1017142', 'w0j5m5g7f5', 'load');
+
+    inViewportDefer(function() {
+        $("#pe-aws-pricing table th:not(:first-child), " +
+            "#pe-aws-pricing table td:not(:first-child)").inViewport(function(px){
+            if(px >= 20) {
+                $(this).addClass("animated flipInY");
+                return true;
+            }
+        });
+    });
+
+    jqueryDefer(function () {
+        initPricingState();
+    });
+
+    function initPricingState() {
+        $(function(){
+            window.addEventListener('popstate', onPopPricingState);
+            onPopPricingState();
+        });
+    }
+
+    function onPopPricingState() {
+        var params = Qs.parse(window.location.search, { ignoreQueryPrefix: true });
+        var sectionId = params['section'] || params['active'];
+        if (!sectionId) {
+            sectionId = '{{page.defaultActivePricingSection}}';
+        }
+        setActivePricingSection(sectionId);
+        var productId = params['product'];
+        if (productId) {
+            setActiveProductSection(productId);
+        }
+        var solutionId = params['solution'];
+        if (solutionId) {
+            setActiveSolutionSection(solutionId);
+        }
+    }
+
+    function activatePricingSection(sectionId) {
+        updateQueryParam({section: sectionId, product: null, solution: null});
+        setActivePricingSection(sectionId);
+    }
+
+    function activateProductSection(productId) {
+        updateQueryParam({product: productId, solution: null});
+        setActiveProductSection(productId);
+    }
+
+    function activateSolutionSection(solutionId) {
+        updateQueryParam({solution: solutionId});
+        setActiveSolutionSection(solutionId);
+    }
+
+    function updateQueryParam(setParams) {
+        var params = Qs.parse(window.location.search, { ignoreQueryPrefix: true });
+        for (var paramName of Object.keys(setParams)) {
+            var paramValue = setParams[paramName];
+            if (paramValue) {
+                params[paramName] = setParams[paramName];
+            } else {
+                params[paramName] = undefined;
+            }
+        }
+        var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?' + Qs.stringify(params);
+        if (window.location.hash) {
+            newurl += window.location.hash;
+        }
+        window.history.pushState({ path: newurl }, '', newurl);
+    }
+
+    function setActivePricingSection(sectionId) {
+        var activateSelectProduct = sectionId === 'thingsboard-pe-options' || sectionId === 'trendz-options';
+        $("li.menu-item").removeClass("active");
+        $("li.menu-item#menu-item-"+sectionId).addClass("active");
+        $("div.pricing-content").css("display", "none");
+        $("div.select-product-content").css("display", "none");
+        if (activateSelectProduct) {
+            $("div.select-product-content#" + sectionId).css("display", "flex");
+            $('div.pricing-header-divider').addClass("no-margin");
+            var productId = $('#' + sectionId + ' .product-selector .solution.defaultselection').attr("data-product-id");
+            if (productId) {
+                setActiveProductSection(productId);
+            }
+        } else {
+            $('div.pricing-header-divider').removeClass("no-margin");
+            $("div.pricing-content#" + sectionId).css("display", "block");
+            var solutionId = $('#' + sectionId + ' .solution-selector .solution.defaultselection').attr('id');
+            if (solutionId) {
+                setActiveSolutionSection(solutionId);
+            }
+        }
+
+        if(sectionId) {
+            reportPriceOpen(sectionId);
+        }
+    }
+
+    function setActiveProductSection(sectionId) {
+        $('.product-selector .solution').removeClass("active");
+        $("div.pricing-content").css("display", "none");
+        if (sectionId) {
+            $('.product-selector .solution.' + sectionId).addClass("active");
+            $("div.pricing-content#" + sectionId).css("display", "block");
+            var solutionId = $('#' + sectionId + ' .solution-selector .solution.defaultselection').attr('id');
+            setActiveSolutionSection(solutionId);
+            reportPriceOpen(sectionId);
+        }
+    }
+
+    function setActiveSolutionSection(sectionId) {
+        $('.solution-selector .solution').removeClass("active");
+        $('.pricing-div .pricing-section:not(.pricing-community):not(.pricing-cloud)').removeClass("active");
+        $('.pricing-content-header .pricing-content-description:not(.pricing-cloud)').removeClass("active");
+        if (sectionId) {
+            var solution = $('.solution-selector .solution#' + sectionId);
+            solution.addClass("active");
+            var id = solution.attr("data-toggle");
+            var headerId = solution.attr("data-description-toggle");
+            $('.pricing-div .pricing-section'+id).addClass("active");
+            $('.pricing-content-header .pricing-content-description'+headerId).addClass("active");
+        }
+    }
+
+    function getLicense(event, isPerpetual, productId, planId, productName, coupon, showConfirmDialog) {
+        event.preventDefault();
+        var e = $(event.target);
+        var url = "https://license.thingsboard.io/signup?createSubscription=true&perpetual=";
+        if (isPerpetual) {
+            url += "true";
+        } else {
+            url += "false";
+        }
+        url += "&productId="+productId;
+        url += "&planId="+planId;
+        if (coupon) {
+            url += "&coupon="+coupon;
+        }
+
+        if(showConfirmDialog) {
+            openTrendzConfirmDialog(url, productName + '/' + productId);
+        } else {
+            reportPriceLink(url, productName + '/' + productId);
+            window.open(url, "_blank");
+        }
+    }
+
+    function openTrendzConfirmDialog(url, product) {
+        var dialogTemplate = "<ul class='trndz_dialog_list'>\n" +
+            "<li>You won't be charged until after your free month.</li>\n" +
+            "<li>We'll remind you three days before your trial ends.</li>\n" +
+            "<li>Cancel anytime.</li>\n" +
+            "</ul>";
+
+        swal({
+            title: "Set up your Trendz License",
+            html: true,
+            text: dialogTemplate,
+            allowOutsideClick: true,
+            cancelButtonText: "Cancel",
+            showCancelButton: true,
+            confirmButtonText: "Proceed to License Portal",
+            confirmButtonColor: '#506dad',
+            customClass: 'trndz-swal-license'
+        }, function(isConfirm) {
+            if (isConfirm) {
+                reportPriceLink(url, product);
+                window.open(url, "_blank");
+            }
+        });
+    }
+
+    function reportPriceLink(link, product) {
+        if (!ga.hasOwnProperty("loaded") || ga.loaded !== true || !link || !product) {
+            return;
+        }
+        ga("send", "event", "PriceLink", product, link);
+    }
+
+    function reportPriceOpen(solutionId) {
+        if (!ga.hasOwnProperty("loaded") || ga.loaded !== true || !solutionId) {
+            return;
+        }
+        ga("send", "event", "PriceOpen", solutionId);
+    }
+</script>
+
+{% include cookie-consent.html %}
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+bigheader: "Architecture"
+abstract: "Design docs, deployment scenarios and performance"
+toc:
+- title: Architecture Overview
+  path: /docs/pe/reference/
+- title: Monolithic architecture
+  path: /docs/pe/reference/monolithic/
+- title: Microservices architecture
+  path: /docs/pe/reference/msa/
+- title: Deployment scenarios
+  path: /docs/pe/reference/iot-platform-deployment-scenarios/
+- title: Performance on AWS EC2
+  path: /docs/pe/reference/performance-aws-instances/
+  new: true

@@ -1,0 +1,114 @@
+bigheader: "kubernetes Documentation"
+abstract: "Documentation for using kubernetes Platform."
+toc:
+- title: Kubernetes
+  path: /docs/kubernetes/
+- title: Kubernetes介绍
+  path: /docs/kubernetes/k8s-summary/
+- title: Kubernetes架构
+  path: /docs/kubernetes/k8s-framework/
+- title: 生产实践
+  section:
+  - title: 分布式集群规划
+    path: /docs/kubernetes/pro/cluster-plan/
+  - title: 部署Kubernetes集群
+    path: /docs/kubernetes/pro/deploy-kubernetes/
+  - title: 部署高可用Kubernetes集群
+    path: /docs/kubernetes/pro/deploy-kubernetes-ha/
+  - title: 部署Kubernetes组件
+    section:
+      - title: HPA
+        path: /docs/kubernetes/pro/module/deploy-module-hpa/
+      - title: Ingress
+        path: /docs/kubernetes/pro/module/deploy-module-ingress/
+      - title: Harbor
+        path: /docs/kubernetes/pro/module/deploy-module-harbor/
+      - title: Rook
+        path: /docs/kubernetes/pro/module/deploy-module-rook/
+      - title: Helm
+        path: /docs/kubernetes/pro/module/deploy-module-helm/
+      - title: ChartMuseum
+        path: /docs/kubernetes/pro/module/deploy-module-chartmuseum/
+  - title: 部署中间件
+    section:
+      - title: PostgreSQL
+        path: /docs/kubernetes/pro/middleware/deploy-middleware-postgresql/
+      - title: TimescaleDB
+        path: /docs/kubernetes/pro/middleware/deploy-middleware-timescaledb/
+      - title: Redis
+        path: /docs/kubernetes/pro/middleware/deploy-middleware-redis/
+      - title: RabbitMQ
+        path: /docs/kubernetes/pro/middleware/deploy-middleware-rabbitmq/
+      - title: MySQL
+        path: /docs/kubernetes/pro/middleware/deploy-middleware-mysql/
+  - title: 系统监控
+    section:
+      - title: Prometheus
+        path: /docs/kubernetes/pro/monitoring/deploy-monitoring-prometheus/
+      - title: ELK
+        path: /docs/kubernetes/pro/monitoring/deploy-monitoring-elk/
+  - title: Spring Cloud
+    section:
+      - title: 部署方案
+        path: /docs/kubernetes/pro/microservice/cloud-deploy-plan/
+      - title: 微服务部署
+        path: /docs/kubernetes/pro/microservice/cloud-deploy/
+      - title: 生产环境部署
+        path: /docs/kubernetes/pro/microservice/cloud-deploy-pro/
+      - title: 测试环境部署
+        path: /docs/kubernetes/pro/microservice/cloud-deploy-test/
+- title: 存储
+  section:
+  - title: Rook
+    path: /docs/kubernetes/storage/rook/
+  - title: NFS
+    path: /docs/kubernetes/storage/nfs/
+- title: 监控运维
+  section:
+  - title: 系统监控
+    path: /docs/kubernetes/monitoring/prometheus/
+  - title: 日志管理
+    path: /docs/kubernetes/monitoring/efk/
+- title: 中间件
+  section:
+  - title: PostgreSQL
+    path: /docs/kubernetes/middleware/postgresql/
+  - title: TimescaleDB
+    path: /docs/kubernetes/middleware/timescaledb/
+  - title: Redis
+    path: /docs/kubernetes/middleware/redis/
+  - title: RabbitMQ
+    path: /docs/kubernetes/middleware/rabbitmq/
+  - title: MySQL
+    path: /docs/kubernetes/middleware/mysql/
+  - title: Elastic
+    path: /docs/kubernetes/middleware/elastic/
+- title: 技术进阶
+  section:
+  - title: Helm
+    path: /docs/kubernetes/advance/helm/
+  - title: Helm实践
+    path: /docs/kubernetes/advance/helm-operate/
+  - title: Helm仓库
+    path: /docs/kubernetes/advance/helm-repertory/
+  - title: Ingress
+    path: /docs/kubernetes/advance/ingress/
+  - title: HPA
+    path: /docs/kubernetes/advance/hpa/
+  - title: Operator
+    path: /docs/kubernetes/advance/operator/
+  - title: 拉取墙外镜像
+    path: /docs/kubernetes/advance/pull-mirror/
+  - title: 认证授权
+    path: /docs/kubernetes/advance/authentication/
+- title: Spring Cloud
+  section:
+  - title: Kubernetes部署方案
+    path: /docs/kubernetes/microservice/k8s-deploy/
+  - title: Ingress
+    path: /docs/kubernetes/microservice/ingress/
+  - title: Kubernetes部署外部服务
+    path: /docs/kubernetes/microservice/k8s-ext-deploy/
+  - title: Helm部署方案
+    path: /docs/kubernetes/microservice/helm-deploy/
+

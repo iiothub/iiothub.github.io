@@ -1,0 +1,56 @@
+- title: 开源文化
+  fulltitle: 开源文化
+  description: Open Source Documentation
+  tag: opensource
+  icon: /images/thingsboard-c-icon.svg
+  path: /docs/opensource/
+  guides: /docs/opensource/guides/
+  docsPrefix: /docs/opensource/
+- title: ThingsBoard
+  fulltitle: ThingsBoard
+  description: ThingsBoard Documentation
+  tag: iot
+  icon: /images/thingsboard-c-icon.svg
+  path: /docs/iot/
+  guides: /docs/iot/guides/
+  docsPrefix: /docs/iot/
+- title: 开源中间件
+  fulltitle: 开源中间件
+  description: Middleware Documentation
+  tag: middleware
+  icon: /images/thingsboard-c-icon.svg
+  path: /docs/middleware/
+  guides: /docs/middleware/guides/
+  docsPrefix: /docs/middleware/
+- title: Kubernetes
+  fulltitle: Kubernetes 
+  description: Kubernetes Documentation
+  tag: kubernetes
+  icon: /images/thingsboard-c-icon.svg
+  path: /docs/kubernetes/
+  guides: /docs/kubernetes/guides/
+  docsPrefix: /docs/kubernetes/
+- title: DevOps
+  fulltitle: DevOps
+  description: DevOps Documentation
+  tag: devops
+  icon: /images/thingsboard-c-icon.svg
+  path: /docs/devops/
+  guides: /docs/devops/guides/
+  docsPrefix: /docs/devops/
+- title: KubeEdge
+  fulltitle: KubeEdge
+  description: KubeEdge Documentation
+  tag: kubeedge
+  icon: /images/thingsboard-c-icon.svg
+  path: /docs/kubeedge/
+  guides: /docs/kubeedge/guides/
+  docsPrefix: /docs/kubeedge/
+- title: Node-RED
+  fulltitle: Node-RED
+  description: Node-RED Documentation
+  tag: nodered
+  icon: /images/thingsboard-c-icon.svg
+  path: /docs/nodered/
+  guides: /docs/nodered/guides/
+  docsPrefix: /docs/nodered/
