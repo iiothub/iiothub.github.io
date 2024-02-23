@@ -13,6 +13,8 @@ toc:
   section:
   - title: MQTT
     path: /docs/nodered/app/app-mqtt/
+  - title: Modbus
+    path: /docs/nodered/app/app-modbus/
   - title: TCP
     path: /docs/nodered/app/app-tcp/
   - title: UDP

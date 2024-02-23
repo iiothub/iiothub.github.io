@@ -8,7 +8,7 @@ description:
 
 <h1 class="aboutus-title">技术支持</h1>
 
-<span class="who-we-are">IoTHub技术社区</span>
+<span class="who-we-are">IoTHub 技术社区</span>
 
 <p class="company-info"><br>IoTHub 社区研究、推广主流物联网开源技术，选择开源技术构建物联网平台，免费为中小型系统提供技术支持、解决方案。<br><br>
    IoTHub 社区技术支持路线：物联网（ThingsBoard、EMQX、PostgreSQL 等）、云原生（Kubernetes、DevOps、Istio 等）、边缘计算（KubeEdge、EdgeX Foundry、Node-RED 等）。
@@ -29,7 +29,7 @@ description:
         <li>为中小型物联网系统提供解决方案、生产环境规划、指导环境搭建</li>
         <li>协助解决社区实践技术在生产环境中遇到的实际问题</li>
         <li>数字孪生、可视化、GIS、BIM 相关的技术咨询服务</li>
-        <li>搭建 ThingsBoard 生产环境，集群部署（k8s）、单机部署（CentOS）</li>
+        <li>搭建 ThingsBoard 生产环境，集群部署（Kubernetes）、单机部署（CentOS）</li>
         <li>搭建 Kubernetes 生产环境，集群搭建、应用部署、存储部署、集群监控、日志收集</li>
         <li>搭建 DevOps 开发运维环境，CICD 流水线（Jenkins、GitLab、k8s、Harbor、Helm）</li>
         <li>搭建云原生边缘计算环境，云—Kubernetes、边—KubeEdge、端—EdgeX Foundry</li>
@@ -38,6 +38,7 @@ description:
         <li>搭建 KubeEdge 生产环境，应用部署，存储、网络规划</li>
         <li>搭建 EdgeX Foundry 生产环境，设备接入、平台接入</li>
         <li>数字孪生、可视化、GIS、BIM 相关项目的定制开发工作（合理收费） </li>
+        <li>承接物联网、云原生、边缘计算等项目研发工作（合理收费） </li>
         <li>. . . . . .</li>
     </ul>
 </p>

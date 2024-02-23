@@ -1,0 +1,39 @@
+bigheader: "EdgeX Foundry Documentation"
+abstract: "Documentation for using EdgeX Foundry Platform."
+toc:
+- title: EdgeX Foundry
+  path: /docs/edgex/
+- title: EdgeX Foundry 平台
+  path: /docs/edgex/edgex-foundry/
+- title: EdgeX 核心元数据
+  path: /docs/edgex/core-metadata/
+- title: EdgeX 设备服务
+  path: /docs/edgex/device-service/
+- title: 生产部署
+  section:
+  - title: EdgeX 安装部署
+    path: /docs/edgex/deploy/deploy/
+  - title: EdgeX 安全模式部署
+    path: /docs/edgex/deploy/deploy-secty/
+- title: 设备管理
+  section:
+  - title: MQTT 设备服务
+    path: /docs/edgex/device/service-mqtt/
+  - title: Modbus 设备服务
+    path: /docs/edgex/device/service-modbus/
+  - title: EdgeX 连接 MQTT 设备
+    path: /docs/edgex/device/link-mqtt/
+  - title: EdgeX 连接 Modbus 设备
+    path: /docs/edgex/device/link-modbus/
+  - title: EdgeX 导出数据到 MQTT 服务
+    path: /docs/edgex/device/export-mqtt/
+  - title: EdgeX 导出数据到 HTTP 服务
+    path: /docs/edgex/device/export-http/
+- title: EdgeX 应用 
+  section:
+  - title: EdgeX 基本操作
+    path: /docs/edgex/app/operate/
+  - title: EdgeX 连接物联网设备        
+    path: /docs/edgex/app/link-device/
+  - title: ThingsBord 边缘接入 EdgeX       
+    path: /docs/edgex/app/link-thingsboard/

@@ -46,6 +46,14 @@
   path: /docs/kubeedge/
   guides: /docs/kubeedge/guides/
   docsPrefix: /docs/kubeedge/
+- title: EdgeX Foundry
+  fulltitle: EdgeX Foundry
+  description: EdgeX Foundry Documentation
+  tag: edgex
+  icon: /images/thingsboard-c-icon.svg
+  path: /docs/edgex/
+  guides: /docs/edgex/guides/
+  docsPrefix: /docs/edgex/
 - title: Node-RED
   fulltitle: Node-RED
   description: Node-RED Documentation
