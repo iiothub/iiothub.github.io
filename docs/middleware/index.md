@@ -10,7 +10,7 @@ description: Middleware documentation - learn about the platform and get your Io
 
 <div class="doc-features row mt-4">
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://www.postgresql.org/">
+        <a class="feature-card" href="https://www.postgresql.org/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
             <div class="feature-title">PostgreSQL</div>
             <div class="feature-text">
@@ -19,7 +19,7 @@ description: Middleware documentation - learn about the platform and get your Io
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://github.com/digoal/blog/">
+        <a class="feature-card" href="https://github.com/digoal/blog/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
             <div class="feature-title">PostgreSQL blog</div>
             <div class="feature-text">
@@ -28,7 +28,7 @@ description: Middleware documentation - learn about the platform and get your Io
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://prometheus.io/">
+        <a class="feature-card" href="https://prometheus.io/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
             <div class="feature-title">Prometheus</div>
             <div class="feature-text">
@@ -37,7 +37,7 @@ description: Middleware documentation - learn about the platform and get your Io
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://grafana.com/">
+        <a class="feature-card" href="https://grafana.com/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
             <div class="feature-title">Grafana</div>
             <div class="feature-text">
@@ -46,7 +46,7 @@ description: Middleware documentation - learn about the platform and get your Io
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://www.elastic.co/cn/">
+        <a class="feature-card" href="https://www.elastic.co/cn/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
             <div class="feature-title">ELK</div>
             <div class="feature-text">
@@ -54,4 +54,14 @@ description: Middleware documentation - learn about the platform and get your Io
             </div>
         </a>
     </div>
+    <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
+        <a class="feature-card" href="https://cassandra.apache.org/_/index.html" target="_blank">
+            <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
+            <div class="feature-title">Cassandra</div>
+            <div class="feature-text">
+                Cassandra 官网
+            </div>
+        </a>
+    </div>
 </div> 
+

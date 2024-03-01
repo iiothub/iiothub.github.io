@@ -10,7 +10,7 @@ description: KubeEdge documentation - learn about the platform and get your IoT 
 
 <div class="doc-features row mt-4">
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://kubeedge.io/">
+        <a class="feature-card" href="https://kubeedge.io/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
             <div class="feature-title">KubeEdge</div>
             <div class="feature-text">
@@ -19,7 +19,7 @@ description: KubeEdge documentation - learn about the platform and get your IoT 
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://github.com/kubeedge/kubeedge">
+        <a class="feature-card" href="https://github.com/kubeedge/kubeedge" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
             <div class="feature-title">KubeEdge GitHub</div>
             <div class="feature-text">
@@ -28,7 +28,7 @@ description: KubeEdge documentation - learn about the platform and get your IoT 
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://edgemesh.netlify.app/">
+        <a class="feature-card" href="https://edgemesh.netlify.app/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
             <div class="feature-title">EdgeMesh</div>
             <div class="feature-text">
@@ -37,7 +37,7 @@ description: KubeEdge documentation - learn about the platform and get your IoT 
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://github.com/kubeedge/edgemesh">
+        <a class="feature-card" href="https://github.com/kubeedge/edgemesh" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
             <div class="feature-title">EdgeMesh GitHub</div>
             <div class="feature-text">
@@ -46,4 +46,3 @@ description: KubeEdge documentation - learn about the platform and get your IoT 
         </a>
     </div>
 </div>
-

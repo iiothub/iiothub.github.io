@@ -1,6 +1,6 @@
 ---
 layout: docwithnav-kubernetes
-title: Kubernetes文档
+title: Kubernetes 文档
 description: Kubernetes documentation - learn about the platform and get your IoT projects running on ThingsBoard
 ---
 
@@ -10,7 +10,7 @@ description: Kubernetes documentation - learn about the platform and get your Io
 
 <div class="doc-features row mt-4">
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://www.cncf.io">
+        <a class="feature-card" href="https://www.cncf.io" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
             <div class="feature-title">CNCF</div>
             <div class="feature-text">
@@ -19,7 +19,7 @@ description: Kubernetes documentation - learn about the platform and get your Io
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://kubernetes.io/">
+        <a class="feature-card" href="https://kubernetes.io/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
             <div class="feature-title">Kubernetes</div>
             <div class="feature-text">
@@ -28,7 +28,7 @@ description: Kubernetes documentation - learn about the platform and get your Io
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-    <a class="feature-card" href="https://www.docker.com/">
+    <a class="feature-card" href="https://www.docker.com/" target="_blank">
         <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
         <div class="feature-title">Docker</div>
         <div class="feature-text">
@@ -37,7 +37,7 @@ description: Kubernetes documentation - learn about the platform and get your Io
     </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-    <a class="feature-card" href="https://helm.sh/">
+    <a class="feature-card" href="https://helm.sh/" target="_blank">
         <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
         <div class="feature-title">Helm</div>
         <div class="feature-text">
@@ -46,7 +46,7 @@ description: Kubernetes documentation - learn about the platform and get your Io
     </a>
     </div> 
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-    <a class="feature-card" href="https://goharbor.io/">
+    <a class="feature-card" href="https://goharbor.io/" target="_blank">
         <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
         <div class="feature-title">Harbor</div>
         <div class="feature-text">
@@ -55,7 +55,7 @@ description: Kubernetes documentation - learn about the platform and get your Io
     </a>
 </div>
 <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-    <a class="feature-card" href="https://rook.io/">
+    <a class="feature-card" href="https://rook.io/" target="_blank">
         <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
         <div class="feature-title">Rook</div>
         <div class="feature-text">
@@ -64,7 +64,7 @@ description: Kubernetes documentation - learn about the platform and get your Io
     </a>
 </div> 
 <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-    <a class="feature-card" href="https://prometheus.io/">
+    <a class="feature-card" href="https://prometheus.io/" target="_blank">
         <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
         <div class="feature-title">Prometheus</div>
         <div class="feature-text">
@@ -73,7 +73,7 @@ description: Kubernetes documentation - learn about the platform and get your Io
     </a>
 </div>
 <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-    <a class="feature-card" href="https://www.elastic.co/cn/">
+    <a class="feature-card" href="https://www.elastic.co/cn/" target="_blank">
         <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
         <div class="feature-title">ELK</div>
         <div class="feature-text">

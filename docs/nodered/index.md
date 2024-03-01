@@ -1,6 +1,6 @@
 ---
 layout: docwithnav-nodered
-title: Node-RED文档
+title: Node-RED 文档
 description: Node-RED documentation - learn about the platform and get your IoT projects
 ---
 
@@ -10,7 +10,7 @@ description: Node-RED documentation - learn about the platform and get your IoT 
 
 <div class="doc-features row mt-4">
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://nodered.org/">
+        <a class="feature-card" href="https://nodered.org/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
             <div class="feature-title">Node-RED</div>
             <div class="feature-text">
@@ -19,7 +19,7 @@ description: Node-RED documentation - learn about the platform and get your IoT 
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://github.com/node-red">
+        <a class="feature-card" href="https://github.com/node-red" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
             <div class="feature-title">GitHub</div>
             <div class="feature-text">

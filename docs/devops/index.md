@@ -1,6 +1,6 @@
 ---
 layout: docwithnav-devops
-title: DevOps文档
+title: DevOps 文档
 description: DevOps documentation - learn about the platform and get your IoT projects
 ---
 
@@ -10,7 +10,7 @@ description: DevOps documentation - learn about the platform and get your IoT pr
 
 <div class="doc-features row mt-4">
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://www.jenkins.io/zh/">
+        <a class="feature-card" href="https://www.jenkins.io/zh/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
             <div class="feature-title">Jenkins</div>
             <div class="feature-text">
@@ -19,7 +19,7 @@ description: DevOps documentation - learn about the platform and get your IoT pr
         </a>
     </div>
     <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-        <a class="feature-card" href="https://about.gitlab.com/">
+        <a class="feature-card" href="https://about.gitlab.com/" target="_blank">
             <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
             <div class="feature-title">GitLab</div>
             <div class="feature-text">
@@ -28,7 +28,7 @@ description: DevOps documentation - learn about the platform and get your IoT pr
         </a>
     </div>
 <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-    <a class="feature-card" href="https://git-scm.com/">
+    <a class="feature-card" href="https://git-scm.com/" target="_blank">
         <img class="feature-logo" src="/images/feature-logo/thingsboard-logo.svg"/>
         <div class="feature-title">Git</div>
         <div class="feature-text">
@@ -37,7 +37,7 @@ description: DevOps documentation - learn about the platform and get your IoT pr
     </a>
 </div>
 <div class="col-12 col-sm-6 col-lg col-xxl-6 col-4xl mb-4">
-    <a class="feature-card" href="https://www.sonarsource.com/">
+    <a class="feature-card" href="https://www.sonarsource.com/" target="_blank">
         <img class="feature-logo" src="/images/feature-logo/guides.svg"/>
         <div class="feature-title">SonarQube</div>
         <div class="feature-text">

@@ -19,6 +19,14 @@ toc:
     path: /docs/middleware/timescale/timescale-deploy/
   - title: TimescaleDB集群部署
     path: /docs/middleware/timescale/timescale-deploy-cluster/
+- title: Cassandra
+  section:
+  - title: Cassandra 入门与实战
+    path: /docs/middleware/cassandra/cassandra-summary/
+  - title: Cassandra 安装部署
+    path: /docs/middleware/cassandra/cassandra-deploy/
+  - title: Cassandra 集群部署
+    path: /docs/middleware/cassandra/cassandra-deploy-cluster/
 - title: Prometheus
   section:
   - title: Prometheus介绍
