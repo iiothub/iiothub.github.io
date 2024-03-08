@@ -55,3 +55,6 @@ ThingsBoard可用于:
 
 
 
+#### 2.4.边缘计算
+
+![](/images/iot/default/thingsboard-ce/tb-4.png)

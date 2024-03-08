@@ -49,6 +49,18 @@ toc:
     path: /docs/iot/api/api-swagger/
   - title: REST API
     path: /docs/iot/api/api-rest/
+- title: ThingsBoard Edge
+  section:
+  - title: 安装部署
+    path: /docs/iot/tb-edge/edge-deploy/
+  - title: 容器部署
+    path: /docs/iot/tb-edge/edge-deploy-docker/
+  - title: 设备连接
+    path: /docs/iot/tb-edge/edge-device/
+  - title: 设备控制
+    path: /docs/iot/tb-edge/edge-rpc/
+  - title: 物联网云原生云边协同
+    path: /docs/iot/tb-edge/edge-iot/
 - title: Node-RED
   section:
   - title: 设备连接
