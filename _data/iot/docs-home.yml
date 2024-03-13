@@ -7,7 +7,7 @@ toc:
   path: /docs/iot/thingsboard-ce/
 - title: 生产部署
   section:
-  - title: ThingsBoard单机部署
+  - title: ThingsBoard安装部署
     path: /docs/iot/deploy/deploy-single/
   - title: ThingsBoard集群部署
     path: /docs/iot/deploy/deploy-cluster/

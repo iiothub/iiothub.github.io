@@ -2,7 +2,7 @@
 layout: docwithnav-iot
 assignees:
 - ashvayka
-title: ThingsBoard单机部署
+title: ThingsBoard安装部署
 description: Kubernetes key features and advantages for the rapid development of IoT projects and applications.
 ---
 
